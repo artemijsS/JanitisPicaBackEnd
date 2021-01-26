@@ -29,7 +29,6 @@ module.exports = {
       priority: 3,
       description: entity.description
     }
-    console.log(body)
 
     async function postData(url = '') {
       const response = await fetch(url, {
