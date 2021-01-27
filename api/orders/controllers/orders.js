@@ -23,13 +23,13 @@ module.exports = {
     const transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
-        user: 'artjom1408@gmail.com',
-        pass: 'Katenka-12345'
+        user: 'artemij.semjannikov@gmail.com',
+        pass: 'L1keP0neyz1'
       }
     });
     console.log(ctx.request.body)
     const mailOptions = {
-      from: 'artjom1408@gmail.com',
+      from: 'artemij.semjannikov@gmail.com',
       to: ctx.request.body.email,
       subject: 'Jūsu pasūtījums #' + entity.id + ' | Jānītis Pica',
       html: `
