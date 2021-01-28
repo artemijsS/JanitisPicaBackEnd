@@ -24,7 +24,7 @@ module.exports = {
       service: 'gmail',
       auth: {
         user: 'artemij.semjannikov@gmail.com',
-        pass: 'L1keP0neyz1'
+        pass: 'L1keP0neyz12'
       }
     });
     console.log(ctx.request.body)
